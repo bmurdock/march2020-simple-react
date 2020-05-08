@@ -29,6 +29,7 @@ class CharacterList extends RC {
 
   async componentDidMount()
   {
+    console.log('simple');
     const chars = await fetch('http://localhost:3333/api/characters')
     .then((response) =>
     {
