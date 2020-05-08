@@ -10,7 +10,13 @@ class Post extends RC {
     render()
     {
       return (
-        <div></div>
+        <div className="blogPost">
+          <h3>{this.props.title}</h3>
+          <div className="postContent">
+            {this.props.content}
+          </div>
+          <div style={{color: 'green'}}>Author: {this.props.author}</div>
+        </div>
       )
     }
   }

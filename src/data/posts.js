@@ -11,7 +11,7 @@ export default [
     },
     {
         title: "A Blog Post 3",
-        content: "Sample content.",
+        content: "Sample content. My content is not 800px long so it looks really weird when you render it out there on the page like that.",
         author: "Mark Sanderson",
     },
     {
